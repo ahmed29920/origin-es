@@ -535,7 +535,8 @@ textarea {
   position: absolute;
   right: 0;
   top: 0;
-  background: rgba(255, 255, 255, 0.7); /* Semi-transparent white */
+  background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(225, 225, 225, 1));
+  /* Semi-transparent white */
   backdrop-filter: blur(2px); /* Apply blur effect */
   -webkit-backdrop-filter: blur(2px); /* For Safari */
   border-radius: 10px; /* Optional: to make it look nicer */
@@ -686,7 +687,8 @@ textarea {
   right: 0;
   top: 0;
   /* background: #161619; */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(225, 225, 225, 1));
+ /* Semi-transparent white */
   backdrop-filter: blur(2px); /* Apply blur effect */
   -webkit-backdrop-filter: blur(2px); /* For Safari */
   border-radius: 10px; /* Optional: to make it look nicer */
@@ -794,7 +796,8 @@ textarea {
   right: 0;
   top: 0;
   /* background: #161619; */
-  background: rgba(255, 255, 255, 0.5); /* Semi-transparent white */
+      background: linear-gradient(to right, rgba(255, 255, 255, 0.5), rgba(225, 225, 225, 1));
+ /* Semi-transparent white */
   backdrop-filter: blur(2px); /* Apply blur effect */
   -webkit-backdrop-filter: blur(2px); /* For Safari */
   border-radius: 10px; /* Optional: to make it look nicer */
@@ -922,7 +925,7 @@ textarea {
   font-size: 25px;
   font-weight: 300;
   display: inline-block;
-  background: #fff;
+  background: #FDC10D;
   color: #222327;
   text-align: center;
   border-radius: 50%;
@@ -931,13 +934,19 @@ textarea {
 }
 
 .all-cases-link b:hover {
-  background: #012149;
+  background: #FDC10D;
   text-decoration: none;
+}
+.all-cases-link svg{
+  
+    fill: #012149;
+    stroke: #012149;
+    width: 20px;
 }
 .all-cases-link b:hover svg{
   
-    fill: #fff;
-    stroke: #fff;
+    fill: #012149;
+    stroke: #012149;
     width: 32px;
 }
 
