@@ -3637,3 +3637,9 @@ only screen and (max-device-width: 767px) {
     width: 4vw;
   }
 }
+.serv-img-col{
+  color: #012149;
+}
+.serv-img-col:hover .serv-img{
+  scale: 1.1;
+}
